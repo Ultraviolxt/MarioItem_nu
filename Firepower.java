@@ -12,12 +12,12 @@ public class Firepower extends Item {
         run();
     }
 
-    public void run() {
-        if(this.appear) {
-            System.out.println(" " + name + " is at, " + Arrays.toString(location) + " " + name + " is running");
-        } else {
-            System.out.println(" " + name + " is disappeared");
-        }
-    }
+    // public void run() {
+    //     if(this.appear) {
+    //         System.out.println(" " + name + " is at, " + Arrays.toString(location) + " " + name + " is running");
+    //     } else {
+    //         System.out.println(" " + name + " is disappeared");
+    //     }
+    // }
     
 }
